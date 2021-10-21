@@ -1,8 +1,8 @@
 const contact = () => {
   return <div className="MainContainer">
       <div className="Title">
-<h1>Hey Let's Connect</h1>
-<p>If you are interested to hire me ,collaborate on a project or ask me questions, don't hesitate to reach out to me.</p>
+<h1>Hey Let Us Connect</h1>
+<p>If you are interested to hire me ,collaborate on a project or ask me questions, please reach out to me.</p>
       </div>
       <div className="contactContainer">
           <div className="card">
