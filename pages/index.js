@@ -206,6 +206,8 @@ const Home = () => {
 
         .container {
           margin-top: 50px;
+          margin-left: 20px;
+          margin-right: 20px;
           display: flex;
           justify-content: space-evenly;
           align-items: center;
