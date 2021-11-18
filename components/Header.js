@@ -4,7 +4,7 @@ const Header = () => {
   return (
     <nav>
       <marquee width="100%" direction="right" height="50px">
-        <h1>l'm Ashlone Chibvuri,a full stack web developer</h1>
+        <h1> Ashlone Chibvuri,a full stack web developer</h1>
       </marquee>
       <style jsx>
         {`
