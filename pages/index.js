@@ -1,8 +1,13 @@
 import Link from "next/link";
+import Head from "next/head";
 
 const Home = () => {
   return (
     <div className="main-container">
+      <Head>
+        <title>Ashlone Chibvuri Portfolio</title>
+        <link rel="icon" href="/ashlone.ico" />
+      </Head>
       <div className="intro">
         <div className="bio-container">
           <p>
