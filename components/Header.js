@@ -3,35 +3,17 @@ import Link from "next/link";
 const Header = () => {
   return (
     <nav>
-      <ul>
-        <li>
-          <Link href="/">About</Link>
-        </li>
-        <li>
-          <Link href="/projects">Projects</Link>
-        </li>
-        <li>
-          <Link href="/contact">Contact</Link>
-        </li>
-      </ul>
+      <marquee width="100%" direction="right" height="50px">
+        <h1>l'm Ashlone Chibvuri,a full stack web developer</h1>
+      </marquee>
       <style jsx>
         {`
           nav {
-              width:100%;
-            background-color: #536DFE;
+            width: 100%;
             height: 50px;
-            
           }
-          ul {
-            display: flex;
-            justify-content: space-evenly;
-            align-items:center;
-           
-          }
-          li {
-               margin-top:10px;
-            color: white;
-            list-style: none;
+          h2 {
+            font-size: 2rem;
           }
         `}
       </style>
