@@ -6,7 +6,7 @@ const Intro = () => {
     <div className="card-container">
       <div className="card">
         <h1>
-          Web And Mobile <span>Development Solutions</span>
+          Web & Mobile <span>Development Solutions</span>
         </h1>
         <p>I turn ideas into fully functional web and mobile applications</p>
         <Link href="#contact">
@@ -56,7 +56,7 @@ const Intro = () => {
           padding: 20px;
           width: 150px;
           cursor: pointer;
-          color: white;
+          color: black;
           font-weight: bold;
           border-radius: 15px;
         }

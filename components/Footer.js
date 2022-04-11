@@ -11,6 +11,7 @@ const Footer = () => {
           .Footer {
             text-align: center;
             padding: 50px;
+            margin-top: 50px;
           }
         `}
       </style>

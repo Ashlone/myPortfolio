@@ -83,7 +83,7 @@ const Projects = () => {
             display: grid;
             grid-template-columns: auto auto auto;
             padding: 10px;
-            margin-top: 100px;
+            margin-top: 50px;
             gap: 10px;
           }
 

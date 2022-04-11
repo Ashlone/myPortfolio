@@ -22,11 +22,9 @@ const Whatsapp = () => {
                     padding:100px;
                     display:grid;
                     place-items:center;
+                    margin-top:50px;
                 }
-                hr {
-                    border: 1px solid lime;
-                    
-                  }
+               
 
                 button{
                     padding:20px;

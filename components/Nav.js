@@ -38,16 +38,21 @@ const Nav = () => {
         style={{ right: open ? "0px" : "-50vw" }}
       >
         <li className="Menu-Links">
-          <Link href="/about">About</Link>
+          <Link href="#services">Services</Link>
         </li>
         <li className="Menu-Links">
-          <Link href="/services">Services</Link>
+          <Link href="#projects">Projects </Link>
         </li>
         <li className="Menu-Links">
-          <Link href="/projects">Projects </Link>
+          <Link href="mailto:ashchibvuri@gmail.com">Email Me</Link>
         </li>
         <li className="Menu-Links">
-          <Link href="/contact">Contact</Link>
+          <Link href="https://github.com/Ashlone">My Github</Link>
+        </li>
+        <li className="Menu-Links">
+          <Link href="https://www.linkedin.com/in/ashlone-chibvuri">
+            Linked In
+          </Link>
         </li>
       </ul>
 

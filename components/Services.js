@@ -77,6 +77,7 @@ const Services = () => {
           place-items: center;
           margin-top: 20px;
           border-radius: 30px;
+          color: black;
         }
         h3 {
           font-size: 30px;
