@@ -7,19 +7,19 @@ const Projects = () => {
       <h2>Featured Projects</h2>
       <div className="Card-Container">
         <div className="card">
-          <Link href="pumuladayspa.co.za">
+          <Link href="https://www.pumuladayspa.co.za">
             <img src="/static/images/preview1.png" alt="" />
           </Link>
         </div>
 
         <div className="card">
-          <Link href="futurepw.co.za">
+          <Link href="https://www.futurepw.co.za">
             <img src="/static/images/preview2.png" alt="" />
           </Link>
         </div>
 
         <div className="card">
-          <Link href="botgoods.co.za">
+          <Link href="https://www.botgoods.co.za">
             <img src="/static/images/preview4.png" alt="" />
           </Link>
         </div>
@@ -48,7 +48,7 @@ const Projects = () => {
           <img src="/static/images/preview9.png" alt="" />
         </Link>
 
-        <Link href="linkmann.co.za">
+        <Link href="https://www.linkmann.co.za">
           <img src="/static/images/preview10.png" alt="" />
         </Link>
 
@@ -59,10 +59,10 @@ const Projects = () => {
         <Link href="https://mellifluous-heliotrope-571d5e.netlify.app">
           <img src="/static/images/preview12.png" alt="" />
         </Link>
-        <Link href="diboxify.com">
+        <Link href="https://www.diboxify.com">
           <img src="/static/images/preview13.png" alt="" />
         </Link>
-        <Link href="cmprojects.co.za">
+        <Link href="https://www.cmprojects.co.za">
           <img src="/static/images/preview3.png" alt="" />
         </Link>
       </div>
