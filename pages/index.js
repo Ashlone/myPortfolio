@@ -10,6 +10,10 @@ const Home = () => {
     <div>
       <Head>
         <title>Ashlone Chibvuri Official Site</title>
+        <meta
+          name="description"
+          content="Ashlone Chibvuri is  full stack developer with a strong experience in MERN Stack Technologies"
+        />
         <link rel="icon" href="/ashlone.ico" />
       </Head>
       <Intro />
