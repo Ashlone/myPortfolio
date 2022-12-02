@@ -3,7 +3,7 @@ import Image from "next/image";
 const Services = () => {
   return (
     <div id="services" className="Main-Container">
-      <h2>What Can I do</h2>
+      <h2>My Skills</h2>
       <div className="Card-Container">
         <div className="card">
           <h3>Front-End Web Development</h3>
@@ -51,8 +51,9 @@ const Services = () => {
         }
         h2 {
           text-align: center;
-          font-size: 40px;
-          margin-top: 20px;
+          font-size: 5rem;
+            margin-top: 20px;
+            text-decoration:5px solid #E84A5F underline;
         }
 
         .Card-Container {
@@ -70,7 +71,7 @@ const Services = () => {
         }
 
         .innercard {
-          background-color: lime;
+          background-color: #E84A5F;
           width: 300px;
           height: 50px;
           display: grid;

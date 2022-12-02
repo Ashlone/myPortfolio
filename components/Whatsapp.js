@@ -34,7 +34,7 @@ const Whatsapp = () => {
                     color:black;
                     border:none;
                     font-size:20px;
-                    background-color:lime;
+                    background-color:#E84A5F;
                     justify-content:space-around;
                     border-radius:20px;
 

@@ -6,7 +6,7 @@ const Intro = () => {
     <div className="card-container">
       <div className="card">
         <h1>
-          Web & Mobile <span>Development Solutions</span>
+         Software<span>  Engineer</span>
         </h1>
         <p>I turn ideas into fully functional web and mobile applications</p>
         <Link href="#contact">
@@ -15,7 +15,7 @@ const Intro = () => {
       </div>
       <div className="card">
         <Image
-          src="/static/images/chessboard.png"
+          src="/static/images/animated.gif"
           layout="fill"
           objectFit="cover"
         />
@@ -40,10 +40,12 @@ const Intro = () => {
         }
 
         h1 {
-          font-size: 50px;
+          font-size: 5rem;
+            margin-top: 20px;
+            text-decoration:5px solid #E84A5F underline;
         }
         span {
-          color: lime;
+          color: #E84A5F;
         }
         p {
           margin-top: 10px;
@@ -51,10 +53,10 @@ const Intro = () => {
         }
         button {
           margin-top: 10px;
-          background-color: lime;
+          background-color: #E84A5F;
           border: none;
           padding: 20px;
-          width: 150px;
+          width: 200px;
           cursor: pointer;
           color: black;
           font-weight: bold;

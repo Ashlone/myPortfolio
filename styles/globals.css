@@ -13,12 +13,8 @@ body {
   padding: 0;
   margin: 0;
   font-family: 'Cabin Sketch', cursive;
-  color: white;
-  background-image: url("/static/images/background.png");
-  min-height: 100%;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  color: black;
+  background: #FEE6A8;
 
 }
 
@@ -26,3 +22,4 @@ a {
   color: inherit;
   text-decoration: none;
 }
+

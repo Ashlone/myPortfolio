@@ -9,7 +9,7 @@ const Nav = () => {
       <Link href="/">Ashlone Chibvuri</Link>
       <ul className="Nav-Links-Container">
         <li className="Nav-Links">
-          <Link href="#services">Services</Link>
+          <Link href="#skills">Skills</Link>
         </li>
         <li className="Nav-Links">
           <Link href="#projects">Projects </Link>
@@ -38,7 +38,7 @@ const Nav = () => {
         style={{ right: open ? "0px" : "-50vw" }}
       >
         <li className="Menu-Links">
-          <Link href="#services">Services</Link>
+          <Link href="#skills">Skills</Link>
         </li>
         <li className="Menu-Links">
           <Link href="#projects">Projects </Link>
@@ -63,7 +63,7 @@ const Nav = () => {
             height: 50px;
             display: flex;
             align-items: center;
-            color: white;
+            color: #E84A5F;
             padding: 0px 100px;
             position: relative;
             overflow: hidden;
@@ -75,7 +75,7 @@ const Nav = () => {
               font-size:20px;
               display:inline;
               margin-right:30px;
-              color:white;
+              color:#E84A5F;
               cursor:pointer:
           }
           .Hamburger-Container{
@@ -87,21 +87,21 @@ const Nav = () => {
           .line {
             width: 100%;
             height: 3px;
-            background-color: white;
+            background-color: black;
           }
           .Mobile-Menu-Container{
             display: none;
             position: fixed;
             width: 50vw;
             height: calc(100vh - 50px);
-            background-color: black;
+            background-color: #E84A5F;
             top: 50px;
            
             z-index: 9999;
             margin: 0;
             padding: 0;
             font-weight: bold;
-            color: lightgray;
+            color: black;
             list-style: none;
             transition: all 1s ease;
           }

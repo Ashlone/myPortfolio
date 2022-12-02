@@ -1,7 +1,7 @@
 import Link from "next/link";
 import Head from "next/head";
 import Intro from "../components/Intro";
-import Services from "../components/Services";
+import Skills from "../components/Skills";
 import Projects from "../components/Projects";
 import Whatsapp from "../components/Whatsapp";
 
@@ -16,10 +16,33 @@ const Home = () => {
         />
         <link rel="icon" href="/ashlone.ico" />
       </Head>
+      <hr className="line"/>
       <Intro />
-      <Services />
+      <hr className="line"/>
+      <Skills />
+      <hr className="line"/>
       <Projects />
+      <hr className="line"/>
       <Whatsapp />
+      <hr className="line"/>
+
+      <style jsx>{`
+
+      
+
+      .line{
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        border: 5px dashed #E84A5F;
+        border-radius: 5px;
+        margin-left: -8px;
+  
+        }
+
+        
+        
+      `}</style>
     </div>
   );
 };

@@ -3,8 +3,12 @@ import Image from "next/image";
 import Link from "next/link";
 const Projects = () => {
   return (
-    <div id="projects" className="Main-Container">
-      <h2>Featured Projects</h2>
+    <div id="skills" className="Main-Container">
+      <marquee direction="right"> My Work </marquee>
+      <marquee direction="up" style={{textAlign:"center"}}> Projects </marquee>
+      <marquee direction="left">My Work</marquee>
+      
+      
       <div className="Card-Container">
         <div className="card">
           <Link href="https://www.pumuladayspa.co.za">
@@ -42,7 +46,6 @@ const Projects = () => {
           </Link>
         </div>
       </div>
-      <h2>More Projects</h2>
       <div className="Card-Container">
         <Link href="https://www.warriorsfightandfitness.co.za/">
           <img src="/static/images/preview9.png" alt="" />
@@ -74,11 +77,12 @@ const Projects = () => {
             padding-top: 50px;
           }
 
-          h2 {
-            text-align: center;
-            font-size: 40px;
+          marquee {
+            font-size: 5rem;
             margin-top: 20px;
+            text-decoration:5px solid #E84A5F underline;
           }
+
           .Card-Container {
             display: grid;
             grid-template-columns: auto auto auto;
