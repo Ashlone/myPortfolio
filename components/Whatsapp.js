@@ -15,7 +15,7 @@ const Whatsapp = () => {
         </button>
       </Link>
 
-      <style>
+      <style jsx>
         {`
                 .Whatsapp-Container{
 

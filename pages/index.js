@@ -26,10 +26,7 @@ const Home = () => {
       <Whatsapp />
       <hr className="line"/>
 
-      <style jsx>{`
-
-      
-
+      <style>{`
       .line{
         display:flex;
         justify-content:center;
